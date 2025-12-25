@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🖥 BunnyEra Console
 
 ## 📌 Overview
@@ -21,3 +22,6 @@ MIT License
 
 ## ⬅️ Back to Brand Overview
 [Go to BunnyEra Ecosystem README](../bunnyera-system/README.md)
+=======
+# BunnyEra Console 
+>>>>>>> 6bd501e (Initial commit: upload real code for bunnyera-console)
