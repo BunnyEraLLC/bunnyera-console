@@ -1,18 +1,23 @@
-# BunnyEra Console
+# 🖥 BunnyEra Console
 
-Desktop control center for brand modules and resource orchestration.
+## 📌 Overview
+Desktop control center for BunnyEra brand modules and resource orchestration.  
+这是 BunnyEra 的内部控制层。
 
-## Features
-- Logging module for system events
-- Resource module for virtual card and identity integration
-- Monitoring module for system status and task progress
-- Signal module for BunnyEraEchoBot integration
+---
 
-## Structure
-- `main.js` → Electron entry point
-- `modules/` → Core modules (Agent, Log, Planner, Reviewer)
-- `renderer.js` → UI rendering logic
-- `styles.css` → Console UI styling
+## 🔗 Features
+- 模块化资源调度（AgentModule, LogModule 等）  
+- 日志写入与读取  
+- 系统监控与任务进度  
+- 网络推送与 API 通信
 
-## License
+---
+
+## 📜 License
 MIT License
+
+---
+
+## ⬅️ Back to Brand Overview
+[Go to BunnyEra Ecosystem README](../bunnyera-system/README.md)
