@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Logs
 logs
 *.log
@@ -138,6 +137,3 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
-=======
-ECHO is on.
->>>>>>> 6bd501e (Initial commit: upload real code for bunnyera-console)
