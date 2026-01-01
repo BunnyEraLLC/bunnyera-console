@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Electron 安全策略 -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; frame-src *;"
+    />
+
+    <title>BunnyEra Console</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+
+  <body>
+    <div class="app-root">
+      <!-- 左侧导航栏 -->
+      <aside class="sidebar">
+        <div class="brand">
+          <div class="brand-logo">BE</div>
+          <div class="brand-text">
+            <div class="brand-name">BunnyEra Console</div>
+            <div class="brand-desc">Desktop Control Center</div>
+          </div>
+        </div>
+
+        <nav class="nav">
+          <div class="nav-section-title">Core</div>
+          <button class="nav-item" data-module="ai-web">
+            <span class="nav-dot nav-dot-purple"></span>
+            <span class="nav-label">BunnyEra AI</span>
+          </button>
+
+          <div class="nav-section-title">Modules</div>
+          <button class="nav-item" data-module="logs">
+            <span class="nav-dot nav-dot-blue"></span>
+            <span class="nav-label">LogModule</span>
+          </button>
+          <button class="nav-item" data-module="cardos">
+            <span class="nav-dot nav-dot-green"></span>
+            <span class="nav-label">CardOS</span>
+          </button>
+          <button class="nav-item" data-module="monitor">
+            <span class="nav-dot nav-dot-yellow"></span>
+            <span class="nav-label">Monitor</span>
+          </button>
+          <button class="nav-item" data-module="matrix">
+            <span class="nav-dot nav-dot-pink"></span>
+            <span class="nav-label">Matrix</span>
+          </button>
+          <button class="nav-item" data-module="signal">
+            <span class="nav-dot nav-dot-cyan"></span>
+            <span class="nav-label">Signal</span>
+          </button>
+        </nav>
+      </aside>
+
+      <!-- 主内容区 -->
+      <main class="main">
+        <header class="main-header">
+          <div>
+            <h1 id="main-title">BunnyEra Console</h1>
+            <p id="main-subtitle">
+              Desktop control center for brand modules and resource orchestration.
+            </p>
+          </div>
+        </header>
+
+        <section class="main-body">
+          <!-- 占位内容 -->
+          <div id="content" class="content">
+            <div class="placeholder">
+              <h2>选择左侧模块开始</h2>
+              <p>
+                从左侧导航中选择 BunnyEra AI、LogModule、CardOS、Monitor、Matrix 或 Signal 来开始你的工作流。
+              </p>
+            </div>
+          </div>
+
+          <!-- WebView 区域 -->
+          <div id="webview-container" class="content hidden">
+            <iframe id="webview-frame" class="webview-frame" src="about:blank"></iframe>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="./renderer.js"></script>
+  </body>
+</html>

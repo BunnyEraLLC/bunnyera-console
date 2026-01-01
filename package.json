@@ -1,1 +1,59 @@
-{ } 
+{
+  "name": "bunnyera-console",
+  "productName": "BunnyEra Console",
+  "version": "1.0.0",
+  "description": "BunnyEra Console · Desktop control center for brand modules and resource orchestration.",
+  "main": "main.js",
+  "type": "commonjs",
+
+  "scripts": {
+    "electron": "node scripts/electron.js"
+  },
+
+  "author": "BunnyEra",
+  "license": "MIT",
+
+  "keywords": [
+    "BunnyEra",
+    "Console",
+    "Desktop",
+    "Electron",
+    "AI",
+    "Automation"
+  ],
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BunnyEra/bunnyera-console"
+  },
+
+  "dependencies": {
+    "electron": "^28.0.0"
+  },
+
+  "devDependencies": {
+    "electron-builder": "^24.0.0"
+  },
+
+  "build": {
+    "appId": "com.bunnyera.console",
+    "productName": "BunnyEra Console",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "main.js",
+      "preload.js",
+      "renderer.js",
+      "index.html",
+      "styles.css",
+      "scripts/",
+      "modules/",
+      "package.json"
+    ]
+  },
+
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
