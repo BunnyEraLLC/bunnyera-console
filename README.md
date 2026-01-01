@@ -2,44 +2,44 @@ BunnyEra Console
 Unified Desktop Control Center for the BunnyEra Ecosystem
 
 🚀 Overview
-BunnyEra Console is the official desktop control center of the BunnyEra Ecosystem, designed to unify and orchestrate all core operational modules, including:
+BunnyEra Console is the official desktop control center of the BunnyEra Ecosystem, designed to unify and orchestrate all core operational modules:
 - AI Agent System
 - Virtual Card System (CardOS)
 - Logging System
 - Monitoring System
-- Signal/Utility System
+- Signal / Utility System
 - Matrix Account System
-It serves as the local command hub for all BunnyEra services, providing a clean, modular, and extensible architecture for future expansion.
+It serves as the local command hub for all BunnyEra services, offering a clean, modular, and extensible architecture for long‑term expansion.
 
 🧩 Core Modules
-1. AgentModule — AI Agent Orchestration
+AgentModule — AI Agent Orchestration
 Integrates with BunnyEraAI and provides five specialized agents:
-- Leader – High‑level direction
-- Planner – Task decomposition
-- Coder – Code generation
-- Reviewer – Code validation
-- Executor – Automated execution
+- Leader — High‑level direction
+- Planner — Task decomposition
+- Coder — Code generation
+- Reviewer — Code validation
+- Executor — Automated execution
 
-2. CardOS — Virtual Card Resource System
+CardOS — Virtual Card Resource System
 - Virtual card management
 - Resource allocation
 - Service binding
 
-3. LogModule — Local Logging System
+LogModule — Local Logging System
 - Structured log writing
 - Log retrieval and inspection
 
-4. Monitor — System Monitoring
+Monitor — System Monitoring
 - System status
 - Task progress
 - Runtime diagnostics
 
-5. Signal — Utility & Communication Module
+Signal — Utility & Communication Module
 - Verification codes
 - Translation
 - Exchange rates
 
-6. Matrix — Multi‑Account Automation
+Matrix — Multi‑Account Automation
 - Account registration
 - Account management
 - Workflow automation
@@ -77,12 +77,11 @@ npm run electron:dev
 npm run build
 
 
-This generates a production‑ready Electron build.
+Generates a production‑ready Electron build.
 
 🔗 Integration with BunnyEraAI
 BunnyEra Console communicates with BunnyEraAI through the AgentModule.
-All five agents (Leader, Planner, Coder, Reviewer, Executor) are accessible and can be orchestrated from the Console.
-This enables:
+All five agents (Leader, Planner, Coder, Reviewer, Executor) can be orchestrated from the Console, enabling:
 - Automated workflows
 - Multi‑agent collaboration
 - Local execution pipelines
@@ -99,3 +98,4 @@ This release marks the beginning of a long‑term roadmap toward:
 📜 License
 MIT License
 Open for personal and commercial use.
+
