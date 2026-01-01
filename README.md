@@ -1,4 +1,4 @@
-BunnyEra Console
+unnyEra Console
 Unified Desktop Control Center for the BunnyEra Ecosystem
 🚀 Overview
 BunnyEra Console is the official desktop control center of the BunnyEra Ecosystem, designed to unify and orchestrate all core operational modules:
@@ -15,9 +15,9 @@ Leader / Planner / Coder / Reviewer / Executor
 CardOS — Virtual Card Resource System
 Virtual card management, resource allocation, service binding
 LogModule — Local Logging System
-Structured log writing, log retrieval
+Structured log writing, log retrieval and inspection
 Monitor — System Monitoring
-System status, task progress, diagnostics
+System status, task progress, runtime diagnostics
 Signal — Utility & Communication Module
 Verification codes, translation, exchange rates
 Matrix — Multi‑Account Automation
@@ -42,8 +42,9 @@ npm run electron:dev
 🏭 Build for Production
 npm run build
 🔗 Integration with BunnyEraAI
-Supports all five BunnyEraAI agents for automated workflows and multi‑agent collaboration.
+Supports all five BunnyEraAI agents for automated workflows, multi‑agent collaboration, local execution pipelines, and cross‑module intelligence.
 🌐 Vision
-Foundation layer of the BunnyEra ecosystem, enabling distributed AI orchestration, enterprise automation, global identity management, and modular expansion.
+Foundation layer of the BunnyEra ecosystem, enabling distributed AI orchestration, enterprise‑grade automation, global identity & resource management, and modular expansion.
 📜 License
 MIT License
+Open for personal and commercial use.
